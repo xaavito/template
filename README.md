@@ -41,6 +41,10 @@ Now you've created a commit in your local repo, but not in the remote one. To pu
 ~~~~
 git push -u origin --all
 ~~~~	
+
+
+Ir a Circle CI y activar el proyecto, copiar el ID en .travis.yml, Ir a Travis CI y activar el proyecto, para eso la carpeta .mvn debe estar, NO LA SAQUES, comitear el .travis.yml y arranca la compilacion
+
 By Javier Martin Gonzalez
 
 # Tecnologias Utilizadas:
