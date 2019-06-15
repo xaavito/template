@@ -6,4 +6,4 @@ after_success:
   
 env:
  global:
-  - CODECOV_TOKEN="ad8898e9-76b9-41c9-9629-3cdbef4cf133"
+  - CODECOV_TOKEN="c7d5a45f-1ae8-4c7e-b69a-b1a29c026d97"
