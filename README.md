@@ -1,7 +1,31 @@
 [![Build Status](https://travis-ci.org/xaavito/template.png?branch=master)](https://travis-ci.org/xaavito/template)
 [![codecov](https://codecov.io/gh/xaavito/template/branch/master/graph/badge.svg)](https://codecov.io/gh/xaavito/template)
 
+
 # TEMPLATE
+1) Clonar proyecto
+2) Copiar el proyecto a otra carpeta y borrar el .git folder
+3) reemplazar "template" en todos lados por el nombre del nuevo proyecto.
+4) Iniciar el nuevo repo con:
+- git init
+which initiates a new git repository in that directory.
+
+- When you've done that, you need to register that new repo with a remote (where you'll upload -- push -- your files to), which in this case will be github. You'll get the correct URL from your repo on GitHub.
+
+- git remote add origin https://github.com/[username]/[reponame].git
+You need to add you existing files to your local commit:
+
+- git add .   # this adds all the files
+Then you need to make an initial commit, so you do:
+
+- git commit -a -m "Initial commit" 
+this stages your files locally for commit. 
+they haven't actually been pushed yet
+
+Now you've created a commit in your local repo, but not in the remote one. To put it on the remote, you do the second line you posted:
+
+- git push -u origin --all
+	
 By Javier Martin Gonzalez
 
 # Tecnologias Utilizadas:
